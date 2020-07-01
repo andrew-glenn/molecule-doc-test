@@ -11,6 +11,8 @@ jobs:
     steps:
     - name: Checkout (develop)
       uses: actions/checkout@v2
+      with:
+        submodules: true
     - name: Checkout (custom rules)
       uses: actions/checkout@v2
       with:
