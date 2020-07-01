@@ -16,7 +16,7 @@ jobs:
     - name: Checkout (custom rules)
       uses: actions/checkout@v2
       with:
-        repository: aws-quickstart/qs_cfn_lint_rules
+        repository: aws-quickstart/qs-cfn-lint-rules
         path: team_custom_rules 
     - name: Run local actions
       id: cfnlint_custom
